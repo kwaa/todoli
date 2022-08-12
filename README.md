@@ -2,6 +2,10 @@
 
 🥔 Yet Another To Do List.
 
+## Usage
+
+Visit [todoli.vercel.app](https://todoli.vercel.app)
+
 ## Installation
 
 ```bash
