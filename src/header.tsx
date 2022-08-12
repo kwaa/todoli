@@ -18,17 +18,15 @@ const useStyles = createStyles(() => ({
   },
 }))
 
-interface ToDoLiHeaderProps {
-  title: string
-  setTitle: (val: string | ((prevState: string) => string)) => void
-  resetLocalStorage: () => void
-}
-
 export const ToDoLiHeader = ({
   title,
   setTitle,
   resetLocalStorage,
-}: ToDoLiHeaderProps) => {
+}: {
+  title: string
+  setTitle: (val: string | ((prevState: string) => string)) => void
+  resetLocalStorage: () => void
+}) => {
   const { classes } = useStyles()
   const [opened, handlers] = useDisclosure(false)
   const ref = useClickOutside(() => handlers.close())
