@@ -6,7 +6,7 @@ import {
   Title,
   ActionIcon,
 } from '@mantine/core'
-import { IconTrash } from '@tabler/icons'
+import { IconTrash } from '@tabler/icons-react'
 import { useClickOutside, useDisclosure } from '@mantine/hooks'
 
 const useStyles = createStyles(() => ({

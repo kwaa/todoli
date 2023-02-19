@@ -12,7 +12,7 @@ import {
 } from '@mantine/core'
 import { useListState, useDisclosure, useClickOutside } from '@mantine/hooks'
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd'
-import { IconGripVertical, IconX, IconPlus } from '@tabler/icons'
+import { IconGripVertical, IconX, IconPlus } from '@tabler/icons-react'
 
 const useStyles = createStyles((theme: MantineTheme) => ({
   item: {
